@@ -69,7 +69,7 @@ h3{
 }
 ul{
     line-height:1.8;
-    list-style-type: square;
+    list-style-type:square;
     padding-left:20px;
 }
 a{
@@ -121,7 +121,10 @@ footer{
 </nav>
 
 <header id="home">
-<img src="images/TANISHQ_DAS.jpeg" alt="Tanishq Das">
+<img src="images/TANISHQ_DAS.jpeg"
+     alt="Tanishq Das"
+     loading="lazy"
+     onerror="this.style.display='none'">
 <h1>Tanishq Das</h1>
 <p>BTech Artificial Intelligence Student</p>
 <p>Focused on AI, Machine Learning, and CNN-based real world projects</p>
@@ -191,41 +194,22 @@ footer{
 
 <h3>MATLAB Onramp</h3>
 
-<h2 style="text-align:center; margin-top:40px;">Certificate Gallery</h2>
-<div style="display:flex; flex-wrap:wrap; gap:20px; justify-content:center;">
-  <a href="https://www.mygreatlearning.com/certificate/XUXXVVNW" target="_blank">
-    <img src="images/certificates/dsa_java.png" alt="DSA Certificate" style="width:200px; border-radius:8px;">
-  </a>
-  <a href="https://www.mygreatlearning.com/certificate/DWSBUXLT" target="_blank">
-    <img src="images/certificates/programming_basics.png" alt="Programming Basics" style="width:200px; border-radius:8px;">
-  </a>
-  <a href="https://www.mygreatlearning.com/certificate/TQEZOEXP" target="_blank">
-    <img src="images/certificates/robotics_ai.png" alt="Robotics and AI" style="width:200px; border-radius:8px;">
-  </a>
-  <a href="images/certificates/google_it_support.png" target="_blank">
-    <img src="images/certificates/google_it_support.png" alt="Google IT Support" style="width:200px; border-radius:8px;">
-  </a>
-  <a href="images/certificates/ibm_skillsbuild_frontend.png" target="_blank">
-    <img src="images/certificates/ibm_skillsbuild_frontend.png" alt="IBM Front End" style="width:200px; border-radius:8px;">
-  </a>
-  <a href="images/certificates/ml_python.jpeg" target="_blank">
-    <img src="images/certificates/ml_python.jpeg" alt="Machine Learning Python" style="width:200px; border-radius:8px;">
-  </a>
-  <a href="images/certificates/google_cloud_genai.png" target="_blank">
-    <img src="images/certificates/google_cloud_genai.png" alt="Google Cloud Generative AI" style="width:200px; border-radius:8px;">
-  </a>
-  <a href="images/certificates/web_dev_fundamentals.png" target="_blank">
-    <img src="images/certificates/web_dev_fundamentals.png" alt="Web Development Fundamentals" style="width:200px; border-radius:8px;">
-  </a>
-  <a href="images/certificates/python_essentials.png" target="_blank">
-    <img src="images/certificates/python_essentials.png" alt="Python Essentials" style="width:200px; border-radius:8px;">
-  </a>
-  <a href="images/certificates/sebi_financial_literacy.png" target="_blank">
-    <img src="images/certificates/sebi_financial_literacy.png" alt="SEBI Financial Literacy" style="width:200px; border-radius:8px;">
-  </a>
-  <a href="images/certificates/matlab_onramp.png" target="_blank">
-    <img src="images/certificates/matlab_onramp.png" alt="MATLAB Onramp" style="width:200px; border-radius:8px;">
-  </a>
+<h2 style="text-align:center;margin-top:40px;">Certificate Gallery</h2>
+
+<div style="display:flex;flex-wrap:wrap;gap:20px;justify-content:center;">
+
+<img src="images/certificates/dsa_java.png" loading="lazy" onerror="this.style.display='none'" style="width:200px;border-radius:8px;">
+<img src="images/certificates/programming_basics.png" loading="lazy" onerror="this.style.display='none'" style="width:200px;border-radius:8px;">
+<img src="images/certificates/robotics_ai.png" loading="lazy" onerror="this.style.display='none'" style="width:200px;border-radius:8px;">
+<img src="images/certificates/google_it_support.png" loading="lazy" onerror="this.style.display='none'" style="width:200px;border-radius:8px;">
+<img src="images/certificates/ibm_skillsbuild_frontend.png" loading="lazy" onerror="this.style.display='none'" style="width:200px;border-radius:8px;">
+<img src="images/certificates/ml_python.jpeg" loading="lazy" onerror="this.style.display='none'" style="width:200px;border-radius:8px;">
+<img src="images/certificates/google_cloud_genai.png" loading="lazy" onerror="this.style.display='none'" style="width:200px;border-radius:8px;">
+<img src="images/certificates/web_dev_fundamentals.png" loading="lazy" onerror="this.style.display='none'" style="width:200px;border-radius:8px;">
+<img src="images/certificates/python_essentials.png" loading="lazy" onerror="this.style.display='none'" style="width:200px;border-radius:8px;">
+<img src="images/certificates/sebi_financial_literacy.png" loading="lazy" onerror="this.style.display='none'" style="width:200px;border-radius:8px;">
+<img src="images/certificates/matlab_onramp.png" loading="lazy" onerror="this.style.display='none'" style="width:200px;border-radius:8px;">
+
 </div>
 </section>
 
@@ -233,10 +217,10 @@ footer{
 <h2>Contact</h2>
 <div class="contact-info">
 <div>
-<p>Email: <a href="mailto:tanishqdas2005@gmail.com">tanishqdas2005@gmail.com</a></p>
+<p>Email <a href="mailto:tanishqdas2005@gmail.com">tanishqdas2005@gmail.com</a></p>
 </div>
 <div>
-<p>Phone: <a href="tel:+919407387483">+91 9407387483</a></p>
+<p>Phone <a href="tel:+919407387483">+91 9407387483</a></p>
 </div>
 <div>
 <p><a href="https://www.linkedin.com/in/tanishq-das-698750289/" target="_blank">LinkedIn</a></p>
@@ -253,3 +237,4 @@ footer{
 
 </body>
 </html>
+
